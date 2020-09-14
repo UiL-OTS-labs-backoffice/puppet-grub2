@@ -1,6 +1,6 @@
 ---
 grub2::background_image: ''
-grub2::bardam: ''
+grub2::badram: ''
 grub2::config_template: 'grub2/default_grub.erb'
 grub2::cmdline_linux: ''
 grub2::cmdline_linux_default: 'quiet'
