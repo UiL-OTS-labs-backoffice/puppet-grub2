@@ -1,16 +1,16 @@
 {
-  "name": "goldyfruit-grub2",
+  "name": "uilots-grub2",
   "version": "1.0.8",
-  "author": "goldyfruit",
+  "author": "goldyfruit & UiL OTS Labs Technical staff",
   "summary": "Puppet module for managing GRUB2",
   "license": "Apache-2.0",
-  "source": "git://github.com/goldyfruit/puppet-grub2.git",
-  "project_page": "https://github.com/goldyfruit/puppet-grub2",
-  "issues_url": "https://github.com/goldyfruit/puppet-grub2/issues",
+  "source": "git://github.com/UiL-OTS-labs-backoffice/puppet-grub2.git",
+  "project_page": "https://github.com/UiL-OTS-labs-backoffice/puppet-grub2",
+  "issues_url": "https://github.com/UiL-OTS-labs-backoffice/puppet-grub2/issues",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">=4.6.0 <6.0.0"
+      "version_requirement": ">=4.6.0 <7.0.0"
     }
   ],
   "operatingsystem_support": [
@@ -39,7 +39,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">=4.0.0 <5.0.0"
+      "version_requirement": ">=5.0.0 <7.0.0"
     }
   ],
   "tags": [
@@ -51,7 +51,5 @@
     "mbr"
   ],
   "description": "Puppet module for managing GRUB2",
-  "pdk-version": "1.7.0",
-  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
-  "template-ref": "1.7.0-0-g57412ed"
+  "pdk-version": "1.18.0"
 }

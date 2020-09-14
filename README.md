@@ -6,6 +6,8 @@
 
 This module manages GRUB 2 bootloader
 
+Forked from [goldyfruit/puppet-grub2](https://github.com/goldyfruit/puppet-grub2)
+
 ## Supported distributions
 - Ubuntu
 - Debian
