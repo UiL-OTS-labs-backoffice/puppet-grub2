@@ -183,7 +183,7 @@
 #
 class grub2 (
   String $background_image,
-  String $badram,
+  Optional[String] $badram,
   String $cmdline_linux,
   String $cmdline_linux_default,
   String $cmdline_linux_recovery,
